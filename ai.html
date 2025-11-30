@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorful Links Page</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #6a11cb, #2575fc);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.15);
+            padding: 40px;
+            border-radius: 20px;
+            backdrop-filter: blur(12px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            margin-bottom: 25px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+
+        .links a {
+            display: block;
+            margin: 15px 0;
+            padding: 12px 20px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #fff;
+            border-radius: 10px;
+            transition: 0.25s;
+            font-weight: bold;
+        }
+
+        .links a:nth-child(1) { background: #ff4b5c; }
+        .links a:nth-child(2) { background: #28c76f; }
+        .links a:nth-child(3) { background: #f8c102; }
+        .links a:nth-child(4) { background: #00c2ff; }
+        .links a:nth-child(5) { background: #e4405f; } /* Instagram color */
+
+        .links a:hover {
+            transform: scale(1.08);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Useful Links</h1>
+        <div class="links">
+            <a href="https://www.google.com" target="_blank">Google</a>
+            <a href="https://www.facebook.com" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com" target="_blank">YouTube</a>
+            <a href="https://www.wikipedia.org" target="_blank">Wikipedia</a>
+            <a href="https://www.instagram.com/nishant_up14_/" target="_blank">My Instagram</a>
+        </div>
+    </div>
+</body>
+</html>
+
